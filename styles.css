@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(44, 44, 165);
+    color: rgb(254, 255, 196);    
+}
+
+a{
+    color: greenyellow;
+}
+
+@media only screen and (max-width:480px){
+    body{
+        background-color: azure;
+        color: black;
+    }
+    a{
+        color: blueviolet;
+    }
+}
